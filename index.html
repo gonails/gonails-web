@@ -31,9 +31,21 @@
             <span>Manicura Tradicional</span>
             <span>10€</span>
         </div>
-
-        <a href="#" class="btn-reserva">RESERVAR CITA POR TELEGRAM</a>
     </section>
+	<section id="contacto" style="padding: 2rem; background: #fff;">
+    		<h2 style="text-align: center;">Reserva tu Cita</h2>
+    <!-- Reemplaza la URL de abajo por la que te dio Formspree -->
+    <form action="https://formspree.io/f/mjglzloj" method="POST" style="display: flex; flex-direction: column; max-width: 400px; margin: auto;">
+        <input type="text" name="name" placeholder="Tu Nombre" required style="margin-bottom: 10px; padding: 10px;">
+        <select name="servicio" required style="margin-bottom: 10px; padding: 10px;">
+            <option value="nivelacion">Nivelación</option>
+            <option value="acrilicas">Acrílicas</option>
+            <option value="semi">Semipermanente</option>
+        </select>
+        <input type="tel" name="phone" placeholder="Tu WhatsApp" required style="margin-bottom: 10px; padding: 10px;">
+        <button type="submit" style="padding: 15px; background: #000; color: #fff; border: none; cursor: pointer;">ENVIAR SOLICITUD</button>
+    </form>
+</section>
 
     <section style="background: #f9f9f9; text-align: center;">
         <h3>Compromiso gonails</h3>
